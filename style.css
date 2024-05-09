@@ -1,0 +1,176 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-image: url(BG.webp);
+    background-size: cover;
+}
+
+.head{
+    display: flex;
+    font-size: 7vmin;
+    gap: 1rem;
+    color: rgb(33, 33, 151);
+    font-family: cambria;
+    width: 100%;
+    justify-content: center;
+}
+.input{
+    display: flex;
+    justify-content: space-evenly;
+    height: 13vmin;
+    width: 100%;
+    margin-top: 5vmin;
+}
+.converter{
+    height: 60vmin;
+    width: 120vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 5vmin;
+    background-color: rgba(224, 229, 233, 80%);
+    padding: 5vmin;
+    margin: 10vmin;
+}
+
+.amount {
+    width: 30%;
+    height: 8vmin;
+}
+.from{
+    width: 30%;
+    height: 8vmin;
+}
+.to{
+    width: 30%;
+    height: 8vmin;
+}
+
+.input p{
+    font-size: 2vmin;
+    font-family: Arial;
+    font-weight: 600;
+    padding-left: 1vmin;
+    padding-bottom: 0.5vmin;
+}
+
+.input input{
+    height: 8vmin;
+    width: 90%;
+    border-radius: 0.5rem;
+    border: 1.5px solid rgb(243, 226, 226);
+    padding-left: 2vmin;
+    font-size: 4vmin;
+    font-family: cambria;
+}
+.input select{
+    height: 8vmin;
+    width: 80%;
+    border-radius: 0.5rem;
+    background-color: transparent;
+    border: none;
+    font-size: 3vmin;
+    font-family: cambria;
+    color: black;
+}
+
+.arrow button{
+    width: 7.5vmin;
+    height: 7.5vmin;
+    border-radius: 50%;
+    border: none;
+}
+
+.arrow i{
+    font-size: 3vmin;
+    color: rgb(33, 33, 151);
+}
+
+.arrow{
+    padding:3vmin;
+}
+
+.fromCurr{
+    height: 100%;
+    width: 100%;
+    border-radius: 0.5rem;
+    background-color: white;
+    border: 1.5px solid rgb(243, 226, 226); 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.toCurr{
+    height: 8vmin;
+    width: 100%;
+    border-radius: 0.5rem;
+    background-color: white;
+    border: 1.5px solid rgb(243, 226, 226); 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.input img{
+    height: 40%;
+}
+
+.output{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+    color: rgb(33, 33, 151);
+}
+
+#line1{
+    font-size: 3vmin;
+    font-family: arial;
+}
+#line2{
+    font-size: 7vmin;
+}
+#line3{
+    font-size: 1.5vmin;
+    font-family: arial;
+}
+#line4{
+    font-size: 1.5vmin;
+    font-family: arial;
+}
+
+.hide{
+    display: none;
+}
+
+.submit button{
+    height: 7vmin;
+    width: 20vmin;
+    margin-top: 5vmin;
+    background-color: rgb(33, 33, 151);
+    color: azure;
+    font-size: 4vmin;
+    border-radius: 2vmin;
+    border: none;
+    font-family: cambria;
+}
+
+#convert:hover{
+    background-color: azure;
+    color: rgb(33, 33, 151);
+    cursor: pointer;
+    border: 1px solid rgb(33, 33, 151);
+}
+#arr:hover{
+    background-color: azure;
+    color: rgb(33, 33, 151);
+    cursor: pointer;
+    border: 1px solid rgb(33, 33, 151);
+}

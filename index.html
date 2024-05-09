@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter Online</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="converter">
+        <div class="head">
+            <i class="fa-solid fa-coins"></i>
+            <p>Currency Converter</p>
+        </div>
+        <div class="input">
+            <div class="amount">
+                <p>Amount</p>
+                <input value="100">
+            </div>
+            <div class="from">
+                <p>From</p>
+                <div class="fromCurr">
+                    <img src="https://flagsapi.com/US/shiny/64.png">
+                    <select name="fromCurr" id="fromCurr"></select>
+                </div>
+            </div>
+            <div class="arrow">
+                <p></p>
+                <button id="arr"><i class="fa-solid fa-arrow-right-arrow-left"></i></button>
+            </div>
+            <div class="to">
+                <p>To</p>
+                <div class="toCurr">
+                    <img src="https://flagsapi.com/IN/shiny/64.png">
+                    <select name="toCurr" id="toCurr"></select>
+                </div>
+            </div>
+        </div>
+        <div class="submit">
+            <button id="convert">Convert</button>
+        </div>
+        <div class="output hide">
+            <p id="line1">100 USD =</p>
+            <p id="line2">8300 INR</p>
+            <p id="line3">1 USD = 83 INR</p>
+            <p id="line4">1 INR = 83 USD</p>
+        </div>
+    </div>
+    <script src="codes.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
